@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header{
+    height: 12vh;
+    display: flex;
+    justify-content: center;
+    gap: 8vh;
+    align-items: center;
+}
+
+.profile-blocks{
+    border-bottom-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    height: 50px;
+    width: 210px;
+    background-color: gray;
+}
+
+.img-profile{
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    position: relative;
+    bottom: 20px;
+    left: 10px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+.theme-colors{
+    display: flex;
+    gap: 10px;
+}
+
+.white-theme{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    background-color: wheat;
+}
+
+.black-theme{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    background-color: black;
+}
+
